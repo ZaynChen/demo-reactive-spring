@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+logging:
+  level:
+    org:
+      mongodb: ERROR
+      springframework:
+        boot:
+          autoconfigure:
+            mongo:
+              embedded: ERROR
+        web: DEBUG
+
+
+#logging.level.reactor.Flux=INFO
+#logging.level.reactor.Mono=INFO

@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://192.168.99.100:32768/car
+
+logging:
+  pattern:
+    console: '[%thread] %date{mm:ss} %logger{0}: %msg%n'
+  level:
+    org:
+      mongodb: ERROR
+      springframework:
+        boot:
+          autoconfigure:
+            mongo:
+              embedded: ERROR
+        web: DEBUG
+
+#logging.level.reactor.Mono=INFO
+#logging.level.reactor.Flux=INFO

@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+logging:
+  pattern:
+    console: '[%thread] %date{mm:ss} %logger{0}: %msg%n'
+  level:
+    org:
+      springframework:
+        web: INFO
+    car:
+      app: DEBUG

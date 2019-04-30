@@ -1,0 +1,6 @@
+rootProject.name = 'demo-reactive-spring'
+
+include(':car-app')
+include(':car-domain')
+include(':car-location-service')
+include(':car-request-service')

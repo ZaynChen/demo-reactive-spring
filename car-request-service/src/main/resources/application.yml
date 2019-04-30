@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+logging:
+  pattern:
+    console: '[%thread] %date{mm:ss} %logger{0}: %msg%n'
+  level:
+    org:
+      springframework:
+        web: DEBUG

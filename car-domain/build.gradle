@@ -1,0 +1,5 @@
+dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.8'
+}
+
+description = 'Car Domain'
